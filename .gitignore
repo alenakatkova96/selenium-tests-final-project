@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш pytest
+.pytest_cache/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Логи
+*.log
+
+# Настройки IDE
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
