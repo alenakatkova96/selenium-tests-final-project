@@ -10,3 +10,4 @@ def test_guest_can_go_to_login_page(browser):
     login_page.should_be_login_page()
 
 
+
