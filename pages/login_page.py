@@ -1,8 +1,9 @@
 from .base_page import BasePage
 from .base_page import BasePage
+from .base_page import BasePage
 from .locators import LoginPageLocators
 
-class LoginPage(BasePage):
+class LoginPage(BasePage):   # <--- наследуем BasePage
     def should_be_login_url(self):
         assert "login" in self.browser.current_url, "Login URL is not correct"
 

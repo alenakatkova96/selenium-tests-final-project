@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 from .base_page import BasePage
 from .locators import MainPageLocators
-from selenium.webdriver.common.by import By
 from .base_page import BasePage
 from .locators import MainPageLocators
+from selenium.webdriver.common.by import By
 
 class MainPage(BasePage):
     def should_be_login_link(self):
@@ -12,12 +12,6 @@ class MainPage(BasePage):
     def go_to_login_page(self):
         link = self.browser.find_element(By.CSS_SELECTOR, "#login_link")
         link.click()
-        # alert обработка только если реально появляется
-        try:
-            alert = self.browser.switch_to.alert
-            alert.accept()
-        except:
-            pass
 
 
 
