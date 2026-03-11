@@ -8,3 +8,4 @@ class LoginPageLocators:
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
 
 
+
