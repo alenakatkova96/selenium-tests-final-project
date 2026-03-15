@@ -16,3 +16,4 @@ class LoginPage(BasePage):
         self.should_be_login_form()
         self.should_be_register_form()
 
+
